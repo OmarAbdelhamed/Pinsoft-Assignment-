@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.container {
+    width: 100%;
+    padding: 1px;
+    background-image: linear-gradient(rgba(0, 8, 51, 0.9), rgba(0, 8, 51, 0.9)), url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .Main {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:480) {
+    .Main {
+        flex-direction: column;
+    }
+}
